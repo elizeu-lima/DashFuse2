@@ -141,7 +141,7 @@ export const appRoutes: Route[] = [
                 // Settings
                 {path: 'settings', loadChildren: () => import('app/modules/admin/pages/settings/settings.module').then(m => m.SettingsModule)},
             ]},
-                /*
+              /*
             // User Interface
             {path: 'ui', children: [
 
@@ -181,7 +181,7 @@ export const appRoutes: Route[] = [
                     {path: 'layouts', loadChildren: () => import('app/modules/admin/ui/forms/layouts/layouts.module').then(m => m.FormsLayoutsModule)},
                     {path: 'wizards', loadChildren: () => import('app/modules/admin/ui/forms/wizards/wizards.module').then(m => m.FormsWizardsModule)}
                 ]},
-                    */
+
                 // Icons
                 {path: 'icons', loadChildren: () => import('app/modules/admin/ui/icons/icons.module').then(m => m.IconsModule)},
 
@@ -190,6 +190,7 @@ export const appRoutes: Route[] = [
 
                 // Typography
                 {path: 'typography', loadChildren: () => import('app/modules/admin/ui/typography/typography.module').then(m => m.TypographyModule)}
+
             ]},
 
             // Documentation
@@ -205,6 +206,7 @@ export const appRoutes: Route[] = [
             // 404 & Catch all
             {path: '404-not-found', pathMatch: 'full', loadChildren: () => import('app/modules/admin/pages/error/error-404/error-404.module').then(m => m.Error404Module)},
             {path: '**', redirectTo: '404-not-found'}
+             */
         ]
     }
 ];
