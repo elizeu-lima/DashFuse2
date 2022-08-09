@@ -7,7 +7,7 @@ import { HelpCenterGuidesGuideComponent } from 'app/modules/admin/apps/help-cent
 import { HelpCenterSupportComponent } from 'app/modules/admin/apps/help-center/support/support.component';
 import { HelpCenterFaqsResolver, HelpCenterGuidesCategoryResolver, HelpCenterGuidesGuideResolver, HelpCenterGuidesResolver, HelpCenterMostAskedFaqsResolver } from 'app/modules/admin/apps/help-center/help-center.resolvers';
 
-export const helpCenterRoutes: Route[] = [
+ const helpCenterRoutes: Route[] = [
     {
         path     : '',
         component: HelpCenterComponent,

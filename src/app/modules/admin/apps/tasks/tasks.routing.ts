@@ -5,7 +5,7 @@ import { TasksComponent } from 'app/modules/admin/apps/tasks/tasks.component';
 import { TasksListComponent } from 'app/modules/admin/apps/tasks/list/list.component';
 import { TasksDetailsComponent } from 'app/modules/admin/apps/tasks/details/details.component';
 
-export const tasksRoutes: Route[] = [
+ const tasksRoutes: Route[] = [
     {
         path     : '',
         component: TasksComponent,

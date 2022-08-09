@@ -3,6 +3,8 @@ import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { Chat, Profile } from 'app/modules/admin/apps/chat/chat.types';
 import { ChatService } from 'app/modules/admin/apps/chat/chat.service';
+import {MatSidenavModule} from '@angular/material';
+
 
 @Component({
     selector       : 'chat-chats',

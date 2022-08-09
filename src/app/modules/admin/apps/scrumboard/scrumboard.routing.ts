@@ -4,7 +4,7 @@ import { ScrumboardBoardResolver, ScrumboardBoardsResolver, ScrumboardCardResolv
 import { ScrumboardBoardComponent } from 'app/modules/admin/apps/scrumboard/board/board.component';
 import { ScrumboardCardComponent } from 'app/modules/admin/apps/scrumboard/card/card.component';
 
-export const scrumboardRoutes: Route[] = [
+ const scrumboardRoutes: Route[] = [
     {
         path     : '',
         component: ScrumboardBoardsComponent,
