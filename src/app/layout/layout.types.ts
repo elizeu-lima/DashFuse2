@@ -1,10 +1,10 @@
 export type Layout =
-    | 'empty'
+    //| 'empty'
     | 'Horizontal'
-    | 'centered'
-    | 'enterprise'
-    | 'material'
-    | 'modern'
+    //| 'centered'
+    //| 'enterprise'
+   // | 'material'
+   // | 'modern'
     // Vertical
     | 'classic'
     | 'classy'
