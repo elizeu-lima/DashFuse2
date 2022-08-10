@@ -20,9 +20,15 @@ import { TranslocoHttpLoader } from 'app/core/transloco/transloco.http-loader';
                     {
                         id   : 'tr',
                         label: 'Turkish'
+                    },
+
+                    {
+                        id: 'pt',
+                        label: 'Brazil'
                     }
+
                 ],
-                defaultLang         : 'en',
+                defaultLang         : 'pt',
                 fallbackLang        : 'en',
                 reRenderOnLangChange: true,
                 prodMode            : environment.production
